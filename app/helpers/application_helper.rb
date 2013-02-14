@@ -8,4 +8,10 @@ module ApplicationHelper
       "#{base_title} | #{page_title}"
     end
   end
+
+  def shuffle_string(string)
+    string.split('').shuffle.join('')
+  end
+
 end
+
